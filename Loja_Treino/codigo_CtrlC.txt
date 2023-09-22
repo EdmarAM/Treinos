@@ -1,4 +1,1 @@
-        <div><a class="nav-link" href="#">
-            <img src="353805.png" alt="Carrinho" class="carrinho-icon" width="80" height="80">
-        </a>
-        </div>
+
