@@ -1,0 +1,68 @@
+
+
+.navbar {
+    background-color: #007BFF; 
+    border-bottom: 3px solid #a6a6a6; 
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #FFA500; 
+}
+
+.navbar-dark .navbar-toggler:focus, .navbar-dark .navbar-toggler:hover {
+    background-color: #FFA500; 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #cfcfcf;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #FFA500; 
+}
+
+/* Estilo para o conteúdo da página */
+.container {
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #007BFF; 
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Aumente o tamanho do texto para dispositivos móveis */
+    h1, h2 {
+        font-size: 24px;
+    }
+    
+    /* Ajuste o preenchimento da barra de navegação para dispositivos móveis */
+    .navbar {
+        padding: 10px;
+    }
+}
+
+.btn,.btn-primary{
+    border-radius: 15px;
+    width: 80px;
+    margin: -3px;
+    display:flex ;
+}
+
+.cor{
+    color: white;
+}
+
+.produto{
+    text-align: center;
+}
+
+.contato{
+    text-align: center;
+}
+
+.nav-item{
+    justify-content: auto;
+    margin: auto;
+}
